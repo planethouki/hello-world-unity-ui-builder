@@ -1,0 +1,11 @@
+.button {
+    font-size: 32px;
+    background-image: url('/Assets/button1.png');
+    -unity-background-scale-mode: stretch-to-fill;
+    background-color: rgba(0, 0, 0, 255);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 255);
+}
+
+.button:hover {
+    -unity-background-image-tint-color: rgba(195, 195, 195, 255);
+}
