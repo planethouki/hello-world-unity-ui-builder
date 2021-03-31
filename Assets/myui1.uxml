@@ -1,9 +1,11 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="main.uss" />
-    <ui:Button text="Button" display-tooltip-when-elided="true" binding-path="button1" class="button" style="color: rgba(255, 255, 255, 255);" />
-    <ui:Label text="This is label" display-tooltip-when-elided="true" />
-    <ui:IMGUIContainer style="height: 47px;" />
-    <ui:VisualElement style="height: 115px;" />
-    <ui:Label text="Right Label&#10;Two Line" display-tooltip-when-elided="true" style="-unity-text-align: upper-right;" />
-    <ui:Label text="Bottom Label" display-tooltip-when-elided="true" style="position: absolute; bottom: 0; right: 0; left: 0; -unity-text-align: upper-center;" />
+    <MyUi1 string-attr="default_value2" style="height: 344px;">
+        <ui:Label text="This is label" display-tooltip-when-elided="true" />
+        <ui:IMGUIContainer style="height: 47px;" />
+        <ui:VisualElement style="height: 115px;" />
+        <ui:Label text="Right Label&#10;Two Line" display-tooltip-when-elided="true" style="-unity-text-align: upper-right;" />
+        <ui:Label text="Bottom Label" display-tooltip-when-elided="true" style="position: absolute; bottom: 0; right: 0; left: 0; -unity-text-align: lower-center;" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" binding-path="button1" name="HogeButton" class="button" style="color: rgba(255, 255, 255, 255);" />
+    </MyUi1>
 </ui:UXML>
